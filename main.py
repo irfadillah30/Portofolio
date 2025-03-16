@@ -17,3 +17,7 @@ elif page == 'kontak':
 elif page == 'Dashboard':
     import Dashboard
     Dashboard.tampilakan_dashboard()
+elif page == 'Proyek':
+    import proyek
+    proyek.plot_histogram()
+    
