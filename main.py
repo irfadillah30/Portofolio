@@ -11,7 +11,7 @@ page = st.sidebar.radio('', ['Tentang saya',
 if page == 'Tentang saya': 
     import about
     about.about_me()
-elif page == 'kontak':
+elif page == 'Kontak':
     import kontak
     kontak.munculkan_kontak()
 elif page == 'Dashboard':
